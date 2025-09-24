@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://ugonna-sand.vercel.app/
+
+# Sitemaps
+Sitemap: https://ugonna-sand.vercel.app/sitemap.xml
