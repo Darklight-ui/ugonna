@@ -14,14 +14,14 @@ export const metadata = {
     "Web Developer",
     "React"
   ],
-  authors: [{ name: "Ogankpa E. Ugonna", url: "https://ugonna-sand.vercel.app/" }],
+  authors: [{ name: "Ogankpa E. Ugonna", url: "https://ugonna-j6ae.vercel.app/" }],
   creator: "Ogankpa E. Ugonna",
 
   // ✅ Social (Open Graph / Facebook)
   openGraph: {
     title: "Ogankpa E. Ugonna - Portfolio",
     description: "Personal portfolio built with Next.js and Tailwind",
-    url: "https://ugonna-sand.vercel.app/",
+    url: "https://ugonna-j6ae.vercel.app/",
     siteName: "My Portfolio",
     images: [
       {
