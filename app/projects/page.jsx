@@ -6,6 +6,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { projects } from "../data/data";
 import Image from "next/image";
+import TitleHeader from "@/components/TitleHeader";
 
 
 export default function Projects() {
@@ -15,10 +16,7 @@ export default function Projects() {
     <div className="min-h-screen bg-neutral-50 dark:bg-neutral-900 pt-24 pb-16">
       <Header />
       <div className="max-w-6xl mx-auto px-6">
-        <div className="text-center mb-16">
-          <h1 className="text-4xl md:text-5xl font-bold text-gray-900 dark:text-white mb-6">My Projects</h1>
-          <p className="text-xl text-gray-600 dark:text-gray-400">Here are some of my recent works</p>
-        </div>
+        <TitleHeader title="My Projects" sub="Here are some of my recent works" />
 
         <div className="grid md:grid-cols-2 lg:grid-cols-2 gap-8">
           {projects.map((project) => (

@@ -4,6 +4,7 @@ import Button from "@/components/Button";
 import Card from "@/components/Card";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
+import TitleHeader from "@/components/TitleHeader";
 import { Github, Linkedin, Mail, MapPin, Phone, Send } from "lucide-react";
 import { useState } from "react";
 
@@ -40,15 +41,7 @@ export default function Contact() {
       <Header />
       <div className="max-w-4xl mx-auto px-6">
         {/* Section Title */}
-        <div className="text-center mb-16">
-          <h1 className="text-4xl md:text-5xl font-bold text-gray-900 dark:text-white mb-6">
-            Get In Touch
-          </h1>
-          <p className="text-xl text-gray-600 dark:text-gray-400">
-            Let's work together on your next project
-          </p>
-        </div>
-
+        <TitleHeader title="Get In Touch" sub=" Let's work together on your next project" />
         <div className="grid md:grid-cols-2 gap-12">
           {/* Contact Info */}
           <div>

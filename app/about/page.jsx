@@ -2,6 +2,7 @@ import Button from "@/components/Button";
 import Card from "@/components/Card";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
+import TitleHeader from "@/components/TitleHeader";
 
 export default function About() {
   const skills = [
@@ -13,11 +14,7 @@ export default function About() {
     <div className="min-h-screen bg-white dark:bg-neutral-900 pt-24 pb-16">
       <Header />
       <div className="max-w-4xl mx-auto px-6">
-        <div className="text-center mb-16">
-          <h1 className="text-4xl md:text-5xl font-bold text-gray-900 dark:text-white mb-6">About Me</h1>
-          <p className="text-xl text-gray-600 dark:text-gray-400">Get to know me better</p>
-        </div>
-
+        <TitleHeader title="About Me" sub="Get to know me better" />
         <div className="grid md:grid-cols-2 gap-12 items-center mb-16">
           <div>
             <div className="w-64 h-64 bg-gradient-to-br from-gray-400 to-neutral-500 rounded-2xl mx-auto mb-6 flex items-center justify-center">
