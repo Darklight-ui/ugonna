@@ -13,47 +13,38 @@ export const techStack = [
 export const projects = [
     {
         id: 1,
-        title: 'E-Commerce Platform',
-        description: 'A modern e-commerce solution built with React and Node.js',
+        title: 'Amazone Clone (2020)',
+        description: 'A React Js Full Stack Non Responsive Amazon Store Clone',
         image: '/project1.png',
-        tech: ['React', 'Node.js', 'MongoDB'],
-        github: '#',
-        live: '#'
+        tech: ['React', 'Node.js', 'MongoDB', 'Firebase'],
+        github: 'https://github.com/Darklight-ui/AmazonClone',
+        live: 'https://amazon-app-clone.netlify.app/'
     },
     {
         id: 2,
-        title: 'Task Management App',
-        description: 'Collaborative task management tool with real-time updates',
+        title: 'Fitness Website',
+        description: 'Our fitness website is designed to showcase who we are, what we stand for, and how we help people live healthier lives. It highlights our services, from personalized training programs and group classes to nutrition guidance and wellness support. Visitors can explore our company story, meet our trainers, view class schedules, and easily get in touch or book a session online.With a modern design, mobile- friendly layout, and clear navigation, the site makes it simple for clients to stay connected, access esources, and start their fitness journey with us.',
         image: '/project2.png',
-        tech: ['Next.js', 'Socket.io', 'PostgreSQL'],
-        github: '#',
-        live: '#'
+        tech: ['React.js', 'TailwindCss'],
+        github: 'https://github.com/Darklight-ui/vawulence',
+        live: 'https://vawulence-fitness.netlify.app/'
     },
     {
         id: 3,
-        title: 'Weather Dashboard',
-        description: 'Beautiful weather app with forecasting and location search',
+        title: 'Crypto Price Update',
+        description: 'Welcome to Crypto Price Update, your go-to site for real-time cryptocurrency market data. We deliver the latest prices, charts, and trends across Bitcoin, Ethereum, and hundreds of altcoins — all refreshed continuously so you always stay ahead.',
         image: '/project3.png',
         tech: ['React', 'API Integration', 'TailwindCSS'],
-        github: '#',
-        live: '#'
-    },
-    {
-        id: 4,
-        title: 'Gym Website',
-        description: 'Responsive portfolio site with dark mode and animations',
-        image: '/project4.png',
-        tech: ['Next.js', 'TailwindCSS', 'Framer Motion'],
-        github: '#',
-        live: '#'
+        github: 'https://github.com/Darklight-ui/crypto-app',
+        live: 'https://darklight-ui.github.io/crypto-app/'
     },
     {
         id: 5,
-        title: 'Portfolio Website',
-        description: 'Responsive portfolio Website with 3D animation using Gsap, Three.js, Tailwindcss, React/Vite',
+        title: '3D Portfolio Website',
+        description: 'This 3D Portfolio Website is designed to showcase creative work with depth and impact. Using immersive visuals and interactive 3D elements, it highlights projects in a way that captures attention and tells a story. Visitors can explore models, animations, and designs in a sleek, user-friendly environment that works seamlessly across devices.',
         image: '/project5.png',
         tech: ['React/Vite', 'TailwindCSS', 'Gsap', 'Three', 'React-Dom'],
-        github: '#',
+        github: 'https://github.com/Darklight-ui/3D-Portfolio-Website',
         live: '#'
     }
 ];
