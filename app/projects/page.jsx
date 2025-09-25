@@ -43,14 +43,28 @@ export default function Projects() {
                   ))}
                 </div>
                 <div className="flex gap-3">
+                  <a
+                    href={project.github}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center gap-1 text-sm text-neutral-600 dark:text-neutral-300 hover:text-neutral-300"
+                  >  
                   <Button variant="outline" size="sm">
                     <Github size={16} className="mr-2" />
                     Code
                   </Button>
+                  </a>
+                  <a
+                    href={project.live}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center gap-1 text-sm text-neutral-300 dark:text-neutral-300 hover:text-neutral-50"
+                  >
                   <Button size="sm">
-                    <ExternalLink size={16} className="mr-2" />
-                    Live Demo
+                      <ExternalLink size={16} className="mr-2" />
+                      Live Demo
                   </Button>
+                  </a>
                 </div>
               </div>
             </Card>
