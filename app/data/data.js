@@ -46,6 +46,15 @@ export const projects = [
         tech: ['React/Vite', 'TailwindCSS', 'Gsap', 'Three', 'React-Dom'],
         github: 'https://github.com/Darklight-ui/3D-Portfolio-Website',
         live: '#'
+    },
+    {
+        id: 6,
+        title: 'Prime Event International (NIG) LTD.',
+        description: 'We bring authentic taste, fresh ingredients, and unbeatable service right to your plate..',
+        image: '/project6.png',
+        tech: ['NextJs', 'TailwindCSS', 'GNews', 'Google Fonts'],
+        github: '#',
+        live: '#'
     }
 ];
 
