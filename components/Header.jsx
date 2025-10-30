@@ -48,7 +48,7 @@ const Header = ({ currentPage, setCurrentPage }) => {
         </div>
 
         {isMenuOpen && (
-          <div className="md:hidden mt-4 py-4 border-t border-gray-200 dark:border-gray-700">
+          <div className="md:hidden mt-4 py-4 border-t border-gray-200 dark:border-gray-700 bg-white dark:bg-neutral-900">
             {navItems.map((item) => (
               <Link key={item.href} href={item.href} className="block w-full px-4 py-2 text-sm font-medium text-gray-600 dark:text-gray-400 hover:text-blue-600">
                 {item.label}
