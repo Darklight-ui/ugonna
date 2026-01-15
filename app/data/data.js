@@ -54,7 +54,16 @@ export const projects = [
         image: '/project6.png',
         tech: ['NextJs', 'TailwindCSS', 'GNews', 'Google Fonts'],
         github: '#',
-        live: '#'
+        live: 'https://prime-kitchen-website.vercel.app/'
+    },
+    {
+        id: 7,
+        title: 'Fresh Tag Entertainment Hub',
+        description: 'Fresh Tag is a refined creative studio and lifestyle space curated for visionary brands, elite content creators, podcasters, and tastemakers. Designed with intentional aesthetics and premium finishes, Fresh Tag offers a sophisticated environment for content production, intimate events, and elevated creative experiences.',
+        image: '/project7.png',
+        tech: ['PHP', 'MySQL', 'TailwindCSS', 'HTML', 'JavaScript'],
+        github: '#',
+        live: 'https://freshtagenthub.com/'
     }
 ];
 
