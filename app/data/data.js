@@ -64,6 +64,15 @@ export const projects = [
         tech: ['PHP', 'MySQL', 'TailwindCSS', 'HTML', 'JavaScript'],
         github: '#',
         live: 'https://freshtagenthub.com/'
+    },
+    {
+        id: 8,
+        title: 'Clay Option Concepts',
+        description: 'Clay Option Concepts specializes in technology, security, and power solutions including solar, inverters, CCTV, biometric access, and fire alarms. We provide expert installation, maintenance, and support services to ensure our clients have reliable and efficient systems that meet their needs. Our commitment to quality and customer satisfaction sets us apart in the industry.',
+        image: '/project8.png',
+        tech: ['PHP', 'MySQL', 'TailwindCSS', 'HTML', 'JavaScript', 'Docker'],
+        github: '#',
+        live: 'https://coc.ng/'
     }
 ];
 
