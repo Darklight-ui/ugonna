@@ -62,7 +62,7 @@ export default function Projects() {
                   >
                   <Button size="sm">
                       <ExternalLink size={16} className="mr-2" />
-                      Live Demo
+                      Live Preview
                   </Button>
                   </a>
                 </div>
