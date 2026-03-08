@@ -21,7 +21,7 @@ const Header = ({ currentPage, setCurrentPage }) => {
       <nav className="max-w-6xl mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
           <Link href="/" className="text-2xl font-bold text-gray-900 dark:text-white">
-            @whopushedtoprod
+           Etech Solutions
           </Link>
 
           {/* Desktop Nav */}

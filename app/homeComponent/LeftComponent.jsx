@@ -22,7 +22,7 @@ export default function LeftComponent() {
                 </h1>
 
                 {/* Username */}
-                <p className="text-neutral-600 dark:text-neutral-400">@whopushedtoprod</p>
+                <p className="text-neutral-600 dark:text-neutral-400">Etech Solutions</p>
 
                 {/* Tech Stack & Tools */}
                 <div className="flex flex-wrap justify-center gap-2">

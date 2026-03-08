@@ -13,42 +13,6 @@ export const techStack = [
 export const projects = [
     {
         id: 1,
-        title: 'Amazone Clone (2020)',
-        description: 'A React Js Full Stack Non Responsive Amazon Store Clone',
-        image: '/project1.png',
-        tech: ['React', 'Node.js', 'MongoDB', 'Firebase'],
-        github: 'https://github.com/Darklight-ui/AmazonClone',
-        live: 'https://amazon-app-clone.netlify.app/'
-    },
-    {
-        id: 2,
-        title: 'Fitness Website',
-        description: 'Our fitness website is designed to showcase who we are, what we stand for, and how we help people live healthier lives. It highlights our services, from personalized training programs and group classes to nutrition guidance and wellness support. Visitors can explore our company story, meet our trainers, view class schedules, and easily get in touch or book a session online.With a modern design, mobile- friendly layout, and clear navigation, the site makes it simple for clients to stay connected, access esources, and start their fitness journey with us.',
-        image: '/project2.png',
-        tech: ['React.js', 'TailwindCss'],
-        github: 'https://github.com/Darklight-ui/vawulence',
-        live: 'https://vawulence-fitness.netlify.app/'
-    },
-    {
-        id: 3,
-        title: 'Crypto Price Update',
-        description: 'Welcome to Crypto Price Update, your go-to site for real-time cryptocurrency market data. We deliver the latest prices, charts, and trends across Bitcoin, Ethereum, and hundreds of altcoins — all refreshed continuously so you always stay ahead.',
-        image: '/project3.png',
-        tech: ['React', 'API Integration', 'TailwindCSS'],
-        github: 'https://github.com/Darklight-ui/crypto-app',
-        live: 'https://darklight-ui.github.io/crypto-app/'
-    },
-    {
-        id: 5,
-        title: '3D Portfolio Website',
-        description: 'This 3D Portfolio Website is designed to showcase creative work with depth and impact. Using immersive visuals and interactive 3D elements, it highlights projects in a way that captures attention and tells a story. Visitors can explore models, animations, and designs in a sleek, user-friendly environment that works seamlessly across devices.',
-        image: '/project5.png',
-        tech: ['React/Vite', 'TailwindCSS', 'Gsap', 'Three', 'React-Dom'],
-        github: 'https://github.com/Darklight-ui/3D-Portfolio-Website',
-        live: '#'
-    },
-    {
-        id: 6,
         title: 'Prime Event International (NIG) LTD.',
         description: 'We bring authentic taste, fresh ingredients, and unbeatable service right to your plate..',
         image: '/project6.png',
@@ -57,7 +21,7 @@ export const projects = [
         live: 'https://prime-kitchen-website.vercel.app/'
     },
     {
-        id: 7,
+        id: 2,
         title: 'Fresh Tag Entertainment Hub',
         description: 'Fresh Tag is a refined creative studio and lifestyle space curated for visionary brands, elite content creators, podcasters, and tastemakers. Designed with intentional aesthetics and premium finishes, Fresh Tag offers a sophisticated environment for content production, intimate events, and elevated creative experiences.',
         image: '/project7.png',
@@ -66,13 +30,58 @@ export const projects = [
         live: 'https://freshtagenthub.com/'
     },
     {
-        id: 8,
+        id: 3,
         title: 'Clay Option Concepts',
         description: 'Clay Option Concepts specializes in technology, security, and power solutions including solar, inverters, CCTV, biometric access, and fire alarms. We provide expert installation, maintenance, and support services to ensure our clients have reliable and efficient systems that meet their needs. Our commitment to quality and customer satisfaction sets us apart in the industry.',
         image: '/project8.png',
         tech: ['PHP', 'MySQL', 'TailwindCSS', 'HTML', 'JavaScript', 'Docker'],
         github: '#',
         live: 'https://coc.ng/'
+    },
+    {
+        id: 4,
+        title: 'Clear Capital Investment Cooperative Society Ltd.',
+        description: 'Clear Capital Investment Cooperative Society Ltd. is a member-owned financial cooperative dedicated to providing transparent, accessible, and rewarding investment and savings solutions. We are united by a shared vision of financial clarity and collective growth.',
+        image: '/project9.png',
+        tech: ['PHP', 'MySQL', 'TailwindCSS', 'HTML', 'JavaScript', 'Docker'],
+        github: '#',
+        live: 'https://ccicsl.org/'
+    },
+    {
+        id: 5,
+        title: 'Amazone Clone (2020)',
+        description: 'A React Js Full Stack Non Responsive Amazon Store Clone',
+        image: '/project1.png',
+        tech: ['React', 'Node.js', 'MongoDB', 'Firebase'],
+        github: 'https://github.com/Darklight-ui/AmazonClone',
+        live: 'https://amazon-app-clone.netlify.app/'
+    },
+    {
+        id: 6,
+        title: 'Fitness Website',
+        description: 'Our fitness website is designed to showcase who we are, what we stand for, and how we help people live healthier lives. It highlights our services, from personalized training programs and group classes to nutrition guidance and wellness support. Visitors can explore our company story, meet our trainers, view class schedules, and easily get in touch or book a session online.With a modern design, mobile- friendly layout, and clear navigation, the site makes it simple for clients to stay connected, access esources, and start their fitness journey with us.',
+        image: '/project2.png',
+        tech: ['React.js', 'TailwindCss'],
+        github: 'https://github.com/Darklight-ui/vawulence',
+        live: 'https://vawulence-fitness.netlify.app/'
+    },
+    {
+        id: 7,
+        title: 'Crypto Price Update',
+        description: 'Welcome to Crypto Price Update, your go-to site for real-time cryptocurrency market data. We deliver the latest prices, charts, and trends across Bitcoin, Ethereum, and hundreds of altcoins — all refreshed continuously so you always stay ahead.',
+        image: '/project3.png',
+        tech: ['React', 'API Integration', 'TailwindCSS'],
+        github: 'https://github.com/Darklight-ui/crypto-app',
+        live: 'https://darklight-ui.github.io/crypto-app/'
+    },
+    {
+        id: 8,
+        title: '3D Portfolio Website',
+        description: 'This 3D Portfolio Website is designed to showcase creative work with depth and impact. Using immersive visuals and interactive 3D elements, it highlights projects in a way that captures attention and tells a story. Visitors can explore models, animations, and designs in a sleek, user-friendly environment that works seamlessly across devices.',
+        image: '/project5.png',
+        tech: ['React/Vite', 'TailwindCSS', 'Gsap', 'Three', 'React-Dom'],
+        github: 'https://github.com/Darklight-ui/3D-Portfolio-Website',
+        live: '#'
     }
 ];
 
